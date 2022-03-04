@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for Natours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billybep/natours.git"
+  },
+  "author": "billybep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billybep/natours/issues"
+  },
+  "homepage": "https://github.com/billybep/natours#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
